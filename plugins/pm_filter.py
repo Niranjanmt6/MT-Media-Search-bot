@@ -274,7 +274,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('Update Channel', url='https://t.me/NEWMOVIESALWAYSHD'),
-                    InlineKeyboardButton('Owner', url='https://t.me/')
+                    InlineKeyboardButton('Owner', url='https://t.me/Tom_Holl_and')
                 ]
                 ]
             await query.message.edit(text=f"<b>Developer : <a href='https://github.com/subinps'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='{TUTORIAL}'>Click here</a>\nUpdate Channel : <a href='https://t.me/NEWMOVIESALWAYSHD'>NEW MOVIES LINKS</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
